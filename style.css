@@ -1,0 +1,57 @@
+form#ccForm {
+  width: 350px;
+  background: lightblue;
+  padding: 20px;
+  display: grid;
+  border-radius: 5px;
+  box-shadow: 0px 1px 6px #333;
+  margin: 0 auto;
+}
+
+.single-input {
+  display: grid;
+}
+
+.single-input input {
+  height: 33px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.single-input fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input#submit {
+  width: 100%;
+  border: none;
+  height: 38px;
+  text-transform: uppercase;
+  background: lightcoral;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.single-input.mb {
+  margin-bottom: 10px;
+}
+
+.single-input p {
+  background: red;
+  color: #fff;
+  padding: 5px;
+  /* position: absolute; */
+  right: -208px;
+  bottom: -2px;
+  box-shadow: 0 0 6px 0 #333;
+  font-weight: 700;
+  display: none;
+}
+
+.single-input {
+  position: relative;
+}

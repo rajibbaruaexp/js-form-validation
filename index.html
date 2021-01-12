@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact form two</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <form id="ccForm" name="myForm" action="">
+        <!-- full name -->
+        <div class="single-input">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" />
+          <p id="wfname"></p>
+        </div>
+
+        <!-- phone number -->
+        <div class="single-input">
+          <label for="cPhoneNumber">Phone Number</label>
+          <input type="number" id="cPhoneNumber" />
+          <p id="wnumber"></p>
+        </div>
+
+        <!-- email  -->
+        <div class="single-input">
+          <label for="cemail">Enter your email</label>
+          <input type="email" id="cemail" />
+          <p id="wemail"></p>
+        </div>
+
+        <!-- choice checkbox  -->
+        <div class="single-input mb">
+          <fieldset>
+            <legend>Choices</legend>
+            <input
+              type="checkbox"
+              id="ccheck"
+              name="choice"
+              value="Gardening"
+            />
+            <label for="ccheck">Gardening</label>
+
+            <input
+              type="checkbox"
+              id="ccheck2"
+              name="choice"
+              value="Watching TV"
+            />
+            <label for="ccheck2">Watching TV</label>
+
+            <input type="checkbox" id="ccheck3" name="choice" value="Cycling" />
+            <label for="ccheck3">Cycling</label>
+          </fieldset>
+          <p id="wchoice"></p>
+        </div>
+
+        <!-- sex radio button  -->
+        <div class="single-input mb">
+          <fieldset>
+            <legend>Sex</legend>
+            <input type="radio" id="cmale" name="gender" value="Male" />
+            <label for="cmale">Male</label>
+
+            <input type="radio" id="cfmale" name="gender" value="Female" />
+            <label for="cfmale">Female</label>
+
+            <input type="radio" id="cother" name="gender" value="Other" />
+            <label for="cother">Other</label>
+          </fieldset>
+          <p id="wSex"></p>
+        </div>
+
+        <!-- password  -->
+        <div class="single-input">
+          <label for="cPassword">Password</label>
+          <input type="password" id="cPassword" />
+          <p id="wpass"></p>
+        </div>
+
+        <!-- confirm password  -->
+        <div class="single-input">
+          <label for="ccPassword">Confirm Password</label>
+          <input type="password" id="ccPassword" />
+          <p id="wcpass"></p>
+        </div>
+
+        <input type="submit" value="Register" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
